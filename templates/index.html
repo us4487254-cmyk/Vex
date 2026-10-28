@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vex - Jarvis</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header>
+        <div class="brand">
+          <span class="logo"></span>
+          <h1>Vex</h1>
+        </div>
+        <div class="status">
+          <span class="status-dot"></span>
+          <span>System online</span>
+        </div>
+      </header>
+
+      <div class="chat-body">
+        <div class="response-area" id="chatArea">
+          <div class="message assistant">
+            <div class="bubble">Good evening. I’m Jarvis, your AI assistant. How can I help you today?</div>
+          </div>
+        </div>
+
+        <div class="input-panel">
+          <input id="messageInput" type="text" placeholder="Ask Jarvis to plan, research, or assist..." />
+          <button class="secondary-btn" id="micBtn" type="button">🎙️ Mic</button>
+          <button class="primary-btn" id="sendBtn" type="button">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
