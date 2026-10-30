@@ -1,0 +1,1 @@
+: class Config: ASSISTANT_NAME = "Vex" VOICE_ENABLED = True SPEAK_RESPONSE = True
